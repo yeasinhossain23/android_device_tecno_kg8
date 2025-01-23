@@ -1,4 +1,8 @@
 
+# Twrp Recovery Tree for Tecno Spark 8 Pro (KG8)
+![Tecno spark 8 pro](spark8pro.png)
+
+
 |Basic               |Spec Sheet|
 |--                  |--                                                            |
 |CPU                 |Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)       |
@@ -40,6 +44,3 @@ Minor checks
 - [X] vibrate
 - [X] screenshot
 - [X] partition SD card
-
-# Twrp Recovery Tree for Tecno Spark 8 Pro (KG8)
-![Tecno spark 8 pro](spark8pro.png)
