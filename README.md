@@ -9,12 +9,12 @@ Blocking checks
 
 Medium checks
 - [ ] update.zip sideload
-- [ ] UI colors (red/blue inversions)
+- [X] UI colors (red/blue inversions)
 - [X] Screen goes off and on
 - [X] F2FS/EXT4 Support, exFAT/NTFS where supported
 - [X] all important partitions listed in mount/backup lists
 - [X] backup/restore to/from external (USB-OTG) storage
-- [ ] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+- [X] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
 - [X] decrypt /data
 - [X] Correct date
 
@@ -25,13 +25,13 @@ Minor checks
 - [X] poweroff
 - [X] battery level
 - [X] temperature
-- [ ] encrypted backups
+- [X] encrypted backups
 - [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
 - [X] USB mass storage export
 - [X] set brightness
 - [X] vibrate
 - [X] screenshot
-- [ ] partition SD card
+- [X] partition SD card
 
 
 # Twrp Recovery Tree for Tecno Spark 8 Pro (KG8)
