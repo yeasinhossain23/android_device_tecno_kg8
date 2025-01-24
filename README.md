@@ -20,13 +20,13 @@ Blocking checks
 - [X] reboot to system
 - [X] ADB
 Medium checks
-- [X] update.zip sideload
+- [ ] update.zip sideload
 - [X] UI colors (red/blue inversions)
 - [X] Screen goes off and on
 - [X] F2FS/EXT4 Support, exFAT/NTFS where supported
 - [X] all important partitions listed in mount/backup lists
 - [X] backup/restore to/from external (USB-OTG) storage (mouse and keyboard works)
-- [X] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+- [ ] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
 - [X] decrypt /data
 - [X] Correct date
 
@@ -37,10 +37,10 @@ Minor checks
 - [X] poweroff
 - [X] battery level
 - [X] temperature
-- [X] encrypted backups
+- [ ] encrypted backups
 - [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
 - [X] USB mass storage export
 - [X] set brightness
 - [X] vibrate
 - [X] screenshot
-- [X] partition SD card
+- [ ] partition SD card
