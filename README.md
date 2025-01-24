@@ -31,7 +31,7 @@ Minor checks
 - [X] set brightness
 - [X] vibrate
 - [X] screenshot
-- [X] partition SD card
+- [ ] partition SD card
 
 
 # Twrp Recovery Tree for Tecno Spark 8 Pro (KG8)
