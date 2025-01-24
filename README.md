@@ -9,7 +9,7 @@ Blocking checks
 
 Medium checks
 - [ ] update.zip sideload
-- [X] UI colors (red/blue inversions)
+- [ ] UI colors (red/blue inversions)
 - [X] Screen goes off and on
 - [X] F2FS/EXT4 Support, exFAT/NTFS where supported
 - [X] all important partitions listed in mount/backup lists
@@ -25,7 +25,7 @@ Minor checks
 - [X] poweroff
 - [X] battery level
 - [X] temperature
-- [X] encrypted backups
+- [ ] encrypted backups
 - [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
 - [X] USB mass storage export
 - [X] set brightness
