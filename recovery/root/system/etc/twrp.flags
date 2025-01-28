@@ -4,6 +4,7 @@
 # Main Image Partitions
 /system_image       emmc      /dev/block/bootdevice/by-name/system			                        flags=display="system (image)";backup=1;flashimg=1;slotselect;
 /vendor_image       emmc      /dev/block/bootdevice/by-name/vendor			                        flags=display=vendor (image)";backup=1;flashimg=1;slotselect;
+/systemext_image    emmc    	/dev/block/bootdevice/by-name/system_ext			                    flags=display="system_ext (Image)";backup=1;flashimg=1;slotselect;
 /product_image      emmc      /dev/block/bootdevice/by-name/product                                 flags=display="product (image)";backup=1;flashimg=1;slotselect;
 
 # Other Partitions
@@ -12,7 +13,7 @@
 /system_ext         ext4      /dev/block/bootdevice/by-name/system_ext                              flags=display="system_ext";backup=0;wipeingui;slotselect;
 /product            ext4      /dev/block/bootdevice/by-name/product                                 flags=display="product";backup=0;wipeingui;slotselect;
 
-/preloader          emmc      /dev/block/platform/bootdevice/by-name/preloader                      flags=display="preloader";backup=1;flashimg=1;
+
 /vbmeta				emmc	  /dev/block/platform/bootdevice/by-name/vbmeta			                flags=display="vbmeta";backup=1;flashimg=1;slotselect;
 /vbmeta_system		emmc	  /dev/block/platform/bootdevice/by-name/vbmeta_system				    flags=display="vbmeta_system";backup=1;flashimg=1;slotselect;
 /vbmeta_vendor		emmc	  /dev/block/platform/bootdevice/by-name/vbmeta_vendor				    flags=display="vbmeta_vendor";backup=1;flashimg=1;slotselect;
@@ -42,7 +43,6 @@
 
 /expdb              emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg             emmc      /dev/block/platform/bootdevice/by-name/seccfg                       
-/spmfw              emmc      /dev/block/platform/bootdevice/by-name/spmfw
 /otp                emmc      /dev/block/platform/bootdevice/by-name/otp
 
 # External Storage
