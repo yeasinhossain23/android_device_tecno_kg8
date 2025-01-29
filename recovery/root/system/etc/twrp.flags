@@ -2,10 +2,10 @@
 
 
 # Main Image Partitions
-/system_image       emmc      /dev/block/bootdevice/by-name/system			                        flags=display="system (image)";backup=1;flashimg=1;slotselect;
-/vendor_image       emmc      /dev/block/bootdevice/by-name/vendor			                        flags=display=vendor (image)";backup=1;flashimg=1;slotselect;
-/systemext_image    emmc    	/dev/block/bootdevice/by-name/system_ext			                    flags=display="system_ext (Image)";backup=1;flashimg=1;slotselect;
-/product_image      emmc      /dev/block/bootdevice/by-name/product                                 flags=display="product (image)";backup=1;flashimg=1;slotselect;
+/system_image       emmc      /dev/block/bootdevice/by-name/system			                            flags=display="system(image)";backup=1;flashimg=1;slotselect;
+/vendor_image       emmc      /dev/block/bootdevice/by-name/vendor			                            flags=display="vendor(image)";backup=1;flashimg=1;slotselect;
+/systemext_image    emmc    	/dev/block/bootdevice/by-name/system_ext			                        flags=display="system_ext(image)";backup=1;flashimg=1;slotselect;
+/product_image      emmc      /dev/block/bootdevice/by-name/product                                 flags=display="product(image)";backup=1;flashimg=1;slotselect;
 
 # Other Partitions
 /system_root        ext4   	  /dev/block/bootdevice/by-name/system                                  flags=display="system";backup=0;wipeingui;slotselect;
@@ -14,9 +14,9 @@
 /product            ext4      /dev/block/bootdevice/by-name/product                                 flags=display="product";backup=0;wipeingui;slotselect;
 
 
-/vbmeta				emmc	  /dev/block/platform/bootdevice/by-name/vbmeta			                flags=display="vbmeta";backup=1;flashimg=1;slotselect;
-/vbmeta_system		emmc	  /dev/block/platform/bootdevice/by-name/vbmeta_system				    flags=display="vbmeta_system";backup=1;flashimg=1;slotselect;
-/vbmeta_vendor		emmc	  /dev/block/platform/bootdevice/by-name/vbmeta_vendor				    flags=display="vbmeta_vendor";backup=1;flashimg=1;slotselect;
+/vbmeta				      emmc	    /dev/block/platform/bootdevice/by-name/vbmeta			                    flags=display="vbmeta";backup=1;flashimg=1;slotselect;
+/vbmeta_system		  emmc	    /dev/block/platform/bootdevice/by-name/vbmeta_system				          flags=display="vbmeta_system";backup=1;flashimg=1;slotselect;
+/vbmeta_vendor		  emmc	    /dev/block/platform/bootdevice/by-name/vbmeta_vendor				          flags=display="vbmeta_vendor";backup=1;flashimg=1;slotselect;
 /md1img             emmc      /dev/block/platform/bootdevice/by-name/md1img                         flags=display="md1img";backup=1;flashimg=1;slotselect;
 /spmfw              emmc      /dev/block/platform/bootdevice/by-name/spmfw                          flags=display="spmfw";backup=1;flashimg=1;slotselect;
 /scp                emmc      /dev/block/platform/bootdevice/by-name/scp                            flags=display="scp";backup=1;flashimg=1;slotselect;
@@ -27,7 +27,7 @@
 /boot               emmc      /dev/block/platform/bootdevice/by-name/boot                           flags=display="boot";backup=1;flashimg=1;slotselect;
 
 /dtbo               emmc      /dev/block/platform/bootdevice/by-name/dtbo                           flags=display="dtbo";backup=1;flashimg=1;slotselect;
-/tee		    	emmc      /dev/block/platform/bootdevice/by-name/tee                            flags=display="tee";backup=1;flashimg=1;slotselect;
+/tee		    	      emmc      /dev/block/platform/bootdevice/by-name/tee                            flags=display="tee";backup=1;flashimg=1;slotselect;
 
 /tranfs             ext4      /dev/block/platform/bootdevice/by-name/tranfs                         flags=display="tranfs";backup=1;flashimg=1;
 /protect_f          ext4      /dev/block/platform/bootdevice/by-name/protect1                       flags=display="protect_f";backup=1;
@@ -46,5 +46,5 @@
 /otp                emmc      /dev/block/platform/bootdevice/by-name/otp
 
 # External Storage
-/external_sd        auto      /dev/block/mmcblk1p1   /dev/block/mmcblk1 	     					flags=display="MicroSD";storage;wipeingui;removable
-/usb-otg            auto      /dev/block/sda1       /dev/block/sda                    				flags=display="USB OTG";storage;wipeingui;removable;fsflags="utf8"
+/external_sd        auto      /dev/block/mmcblk1p1   /dev/block/mmcblk1 	     					            flags=display="Micro SD card";storage;wipeingui;removable
+/usb-otg            auto      /dev/block/sda1       /dev/block/sda                    				      flags=display="USB OTG";storage;wipeingui;removable;fsflags="utf8"
