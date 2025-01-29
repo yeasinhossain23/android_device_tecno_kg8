@@ -12,6 +12,7 @@
 |Storage             |64/128GB                                                      |
 
 
+
 Blocking checks
 - [X] Correct screen/recovery size
 - [X] Working Touch, screen
