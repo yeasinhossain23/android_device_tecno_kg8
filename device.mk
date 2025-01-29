@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+
 # OEM otacerts
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/security/tecno
