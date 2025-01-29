@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/TECNO/KG8
+DEVICE_PATH := device/tecno/nexon
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -26,7 +26,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO-KG8
+TARGET_OTA_ASSERT_DEVICE := nexon
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := CY-KG8-H698-C
