@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),KG8)
+ifeq ($(TARGET_DEVICE),nexon)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
