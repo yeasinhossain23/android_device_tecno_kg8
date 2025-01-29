@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_KG8.mk
+    $(LOCAL_DIR)/twrp_nexon.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_KG8-user \
-    twrp_KG8-userdebug \
-    twrp_KG8-eng
+    twrp_nexon-user \
+    twrp_nexon-userdebug \
+    twrp_nexon-eng
