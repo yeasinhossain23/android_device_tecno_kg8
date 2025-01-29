@@ -151,8 +151,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_MAX_BRIGHTNESS := 2047
-#TW_Y_OFFSET := 80
-#TW_H_OFFSET := -80
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_PYTHON := true
 TW_INCLUDE_NANO := true
@@ -171,3 +169,9 @@ TW_FRAMERATE := 60
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# StatusBar
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := "300"
+TW_CUSTOM_CLOCK_POS := "70"
+TW_CUSTOM_BATTERY_POS := "790"
