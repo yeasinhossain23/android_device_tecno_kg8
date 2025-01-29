@@ -11,18 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit from KG8 device
-$(call inherit-product, device/TECNO/KG8/device.mk)
+# Inherit from nexon device
+$(call inherit-product, device/tecno/nexon/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := KG8
-PRODUCT_NAME := twrp_KG8
-PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO KG8
+PRODUCT_DEVICE := nexon
+PRODUCT_NAME := twrp_nexon
+PRODUCT_BRAND := tecno
+PRODUCT_MODEL := nexon
 PRODUCT_MANUFACTURER := TECNO
+PRODUCT_RELEASE_NAME := Tecno Spark 8 Pro (nexon)
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
