@@ -1,4 +1,4 @@
-# Twrp Recovery Tree for Tecno Spark 8 Pro (KG8)
+# Twrp Recovery Tree for Tecno Spark 8 Pro KG8 (nexon)
 ![Tecno spark 8 pro](spark8pro.png)
 
 
