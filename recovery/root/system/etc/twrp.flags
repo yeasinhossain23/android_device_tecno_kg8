@@ -2,16 +2,16 @@
 
 
 # Main Image Partitions
-/system_image       emmc      /dev/block/bootdevice/by-name/system			                            flags=display="system(image)";backup=1;flashimg=1;slotselect;
+/system_image       emmc      /dev/block/bootdevice/by-name/system			                            flags=display="System Image";backup=1;flashimg=1
 /vendor_image       emmc      /dev/block/bootdevice/by-name/vendor			                            flags=display="vendor(image)";backup=1;flashimg=1;slotselect;
 /systemext_image    emmc    	/dev/block/bootdevice/by-name/system_ext			                        flags=display="system_ext(image)";backup=1;flashimg=1;slotselect;
 /product_image      emmc      /dev/block/bootdevice/by-name/product                                 flags=display="product(image)";backup=1;flashimg=1;slotselect;
 
 # Other Partitions
-/system_root        ext4   	  /dev/block/bootdevice/by-name/system                                  flags=display="system";backup=0;wipeingui;slotselect;
-/vendor             ext4   	  /dev/block/bootdevice/by-name/vendor                                  flags=display="vendor";backup=0;wipeingui;slotselect;
-/system_ext         ext4      /dev/block/bootdevice/by-name/system_ext                              flags=display="system_ext";backup=0;wipeingui;slotselect;
-/product            ext4      /dev/block/bootdevice/by-name/product                                 flags=display="product";backup=0;wipeingui;slotselect;
+/system_root        ext4   	  /dev/block/bootdevice/by-name/system                                  flags=display="System";backup=1;wipeingui
+/vendor             ext4   	  /dev/block/bootdevice/by-name/vendor                                  flags=display="vendor";backup=0;wipeingui;
+/system_ext         ext4      /dev/block/bootdevice/by-name/system_ext                              flags=display="system_ext";backup=0;wipeingui;
+/product            ext4      /dev/block/bootdevice/by-name/product                                 flags=display="product";backup=0;wipeingui;
 
 
 /vbmeta				      emmc	    /dev/block/platform/bootdevice/by-name/vbmeta			                    flags=display="vbmeta";backup=1;flashimg=1;slotselect;
